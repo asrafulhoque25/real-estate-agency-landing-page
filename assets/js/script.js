@@ -2063,6 +2063,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+// Real Estate Agency FAQ
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.realestate-agency-faq').forEach(section => {
+    initFAQGrid(section);
+    initFAQ(section);
+  });
+});
+
 // Home services page js end
 
 
